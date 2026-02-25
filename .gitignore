@@ -1,0 +1,25 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Data (optional: remove next line if you want to commit collected labels)
+data/
+
+# Claude internal
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
